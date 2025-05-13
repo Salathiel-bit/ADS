@@ -6,9 +6,9 @@ nome: CI
 sobre:
  #Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para a filial "principal"
  empurrar:
-   ramos: [ "principal" ]
+   ramos: ["principal"]
  solicitação de pull :
-   ramos: [ "principal" ]
+   ramos: ["principal"]
 
  #Permite que você execute este fluxo de trabalho manualmente na guia Ações
  fluxo de trabalho_despacho :
