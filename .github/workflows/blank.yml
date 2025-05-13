@@ -1,9 +1,6 @@
 # Este é um fluxo de trabalho básico para ajudar você a começar com ações
 
-
-
 nome : CI
-
 
 
 # Controla quando o fluxo de trabalho será executado
@@ -20,13 +17,9 @@ sobre :
 
    ramos : [ "principal" ]
 
-
-
  # Permite que você execute este fluxo de trabalho manualmente na guia Ações
 
  fluxo de trabalho_despacho :
-
-
 
 # Uma execução de fluxo de trabalho é composta de um ou mais trabalhos que podem ser executados sequencialmente ou em paralelo
 
@@ -40,8 +33,6 @@ empregos :
 
    executa em : ubuntu-latest
 
-
-
    # As etapas representam uma sequência de tarefas que serão executadas como parte do trabalho
 
    passos :
@@ -50,15 +41,11 @@ empregos :
 
      - usos : ações/checkout@v3
 
-
-
      # Executa um único comando usando o shell do runner
 
      - nome : Executa um script de uma linha
 
        executar : eco Olá, mundo!
-
-
 
      # Executa um conjunto de comandos usando o shell do runner
 
