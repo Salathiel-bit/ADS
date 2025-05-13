@@ -4,7 +4,7 @@ nome: CI
 
 #Controlar quando o fluxo de trabalho será executado
 sobre:
- #Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para o branch "principal"
+ #Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para a filial "principal"
  empurrar:
    ramos: [ "principal" ]
  solicitação de pull :
