@@ -7,11 +7,11 @@ sobre:
  #Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para a filial "principal"
  empurrar:
    ramos: ["principal"]
- solicitação de pull :
+ solicitação de pull:
    ramos: ["principal"]
 
  #Permite que você execute este fluxo de trabalho manualmente na guia Ações
- fluxo de trabalho_despacho :
+ fluxo de trabalho_despacho:
 
 #Uma execução de fluxo de trabalho é composta de um ou mais trabalhos que podem ser executados sequencialmente ou em paralelo
 empregos:
