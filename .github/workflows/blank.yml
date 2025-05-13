@@ -10,7 +10,6 @@ sobre :
  # Permite que você execute este fluxo de trabalho manualmente na guia Ações
  fluxo de trabalho_despacho :
 # Uma execução de fluxo de trabalho é composta de um ou mais trabalhos que podem ser executados sequencialmente ou em paralelo
-
 empregos :
  # Este fluxo de trabalho contém um único trabalho chamado "build"
  construir :
